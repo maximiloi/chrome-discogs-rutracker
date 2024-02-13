@@ -1,0 +1,17 @@
+{
+  "author": "maxim.iloi",
+  "content_scripts": [
+    {
+      "js": ["discogs-rutracker.js"],
+      "matches": ["*://*.discogs.com/release/*"]
+    }
+  ],
+  "description": "Добавляет ссылку на поиск релиза по rutracker.org на сайте discogs.com",
+  "homepage_url": "https://github.com/maximiloi/discogs-rutracker",
+  "icons": {
+    "96": "icons/discogs-tracker-96x96.png"
+  },
+  "manifest_version": 3,
+  "name": "DiscogsTracker",
+  "version": "2024.02.13"
+}
