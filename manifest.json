@@ -2,8 +2,12 @@
   "author": "maxim.iloi",
   "content_scripts": [
     {
-      "js": ["discogs-rutracker.js"],
-      "matches": ["*://*.discogs.com/release/*"]
+      "js": ["scripts/discogs-release.js"],
+      "matches": ["*://*.discogs.com/release/*", "*://*.discogs.com/master/*"]
+    },
+    {
+      "js": ["scripts/discogs-label.js"],
+      "matches": ["*://*.discogs.com/label/*"]
     }
   ],
   "description": "Добавляет ссылку на поиск релиза по rutracker.org на сайте discogs.com",
