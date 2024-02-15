@@ -1,5 +1,6 @@
 const titleEl = document.querySelector('h1');
-const titleName = titleEl.textContent;
+const titleName = titleEl.textContent.trim();
+console.log('titleName: ', titleName);
 const linkEl = document.createElement('a');
 const imgEl = document.createElement('img');
 

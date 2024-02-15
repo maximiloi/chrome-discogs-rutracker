@@ -3,7 +3,11 @@
   "content_scripts": [
     {
       "js": ["scripts/discogs-release.js"],
-      "matches": ["*://*.discogs.com/release/*", "*://*.discogs.com/master/*"]
+      "matches": [
+        "*://*.discogs.com/release/*",
+        "*://*.discogs.com/master/*",
+        "*://*.discogs.com/sell/item/*"
+      ]
     },
     {
       "js": ["scripts/discogs-label.js"],
