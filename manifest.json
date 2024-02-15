@@ -6,7 +6,8 @@
       "matches": [
         "*://*.discogs.com/release/*",
         "*://*.discogs.com/master/*",
-        "*://*.discogs.com/sell/item/*"
+        "*://*.discogs.com/sell/item/*",
+        "*://*.discogs.com/sell/release/*"
       ]
     },
     {
