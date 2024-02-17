@@ -1,5 +1,5 @@
 function createLink(titleEl) {
-  const titleName = titleEl.textContent;
+  const titleName = titleEl.textContent.trim();
 
   if (!titleName.includes('versions')) {
     const linkEl = document.createElement('a');
@@ -26,6 +26,6 @@ setTimeout(function () {
       createLink(titleEl);
     });
   } else {
-    console.log('Перезагрузите страницу');
+    alert('Перезагрузите страницу, ф5');
   }
 }, 3000);
