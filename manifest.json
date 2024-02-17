@@ -16,7 +16,7 @@
     }
   ],
   "description": "Добавляет ссылку на поиск релиза по rutracker.org на сайте discogs.com",
-  "homepage_url": "https://github.com/maximiloi/discogs-rutracker",
+  "homepage_url": "https://github.com/maximiloi/chrome-discogs-rutracker",
   "icons": {
     "96": "icons/discogs-tracker-96x96.png"
   },
